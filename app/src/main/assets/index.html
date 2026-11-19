@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>离线手册</title>
+  <style>
+    :root { font-family: system-ui, sans-serif; line-height: 1.6; }
+    body { max-width: 44rem; margin: 0 auto; padding: 12vh 1.25rem 3rem; }
+    h1 { line-height: 1.2; }
+    .card { border: 1px solid currentColor; border-radius: 1rem; padding: 1rem 1.25rem; margin-top: 1.5rem; }
+    code { overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+  <main>
+    <p>ST01 · 平板离线手册外壳</p>
+    <h1>应用已经就绪</h1>
+    <p>这里是开源版的空内容页。此版本只提供离线 Android 外壳，不包含游戏规则、卡牌文字、图片或其他第三方资料。</p>
+    <section class="card">
+      <h2>添加你有权使用的手册</h2>
+      <p>将本地网页文件放入应用的 app/src/main/assets/，以 index.html 作为入口，然后重新构建安装包。</p>
+      <p>应用仅能读取打包在 APK 中的本地文件，且不会请求网络。</p>
+    </section>
+  </main>
+</body>
+</html>
